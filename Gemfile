@@ -11,6 +11,9 @@ gem 'puma', '~> 3.0'
 # Serializing API Output
 gem 'active_model_serializers'
 
+# React on Rails
+gem 'react-rails'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
