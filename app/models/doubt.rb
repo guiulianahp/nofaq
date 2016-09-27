@@ -1,2 +1,0 @@
-class Doubt < ApplicationRecord
-end
