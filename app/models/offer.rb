@@ -1,3 +1,3 @@
 class Offer < ApplicationRecord
-	belongs_to :doub
+	belongs_to :doubt
 end

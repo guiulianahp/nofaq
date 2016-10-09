@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :offers
-  resources :doubts
+  resources :doubts do
+  	resources :offers
+  end
   root 'home#index'
 end

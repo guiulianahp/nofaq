@@ -1,5 +1,7 @@
 class DoubtsController < ApplicationController
 
+	before_action :authenticate_user!
+
 	def index
 		@doubts = Doubt.all
 	end
