@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  mount_devise_token_auth_for 'User', at: 'auth'
-  resources :offers
-  resources :doubts
-  root 'home#index'
+	root 'home#index'
+	mount_devise_token_auth_for 'User', at: 'auth'
+	resources :doubts do
+		resources :offers
+	end
 end
