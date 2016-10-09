@@ -25,6 +25,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Authentication gem
 gem 'devise'
+gem 'omniauth'
+gem 'devise_token_auth'
 # Bootstrap SASS
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use Redis adapter to run Action Cable in production
